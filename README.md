@@ -85,25 +85,50 @@ Fig1
 
 ## CEL-Seq
 Citation:<br/>
+Cell Rep. 2012 Sep 27;2(3):666-73. doi: 10.1016/j.celrep.2012.08.003. Epub 2012 Aug 30.
+CEL-Seq: single-cell RNA-Seq by multiplexed linear amplification.
+Hashimshony T1, Wagner F, Sher N, Yanai I.
 
+Genome Biol. 2016 Apr 28;17:77. doi: 10.1186/s13059-016-0938-8.
+CEL-Seq2: sensitive highly-multiplexed single-cell RNA-Seq.
+Hashimshony T1, Senderovich N1, Avital G1, Klochendler A2, de Leeuw Y1, Anavy L1, Gennert D3,4,5, Li S6, Livak KJ6, Rozenblatt-Rosen O3,4,5, Dor Y2, Regev A3,4,5, Yanai I7.
 ```
 
 ```
 ### Json:
 ```
-
+{
+    "read1": "(?P<name>@.*) .*\\n(?P<CB>.{8})(?P<MB>.{4})(.*)\\n\\+(.*)\\n(.*)\\n",
+    "read2": "(@.*)\\n(?P<seq>.*)\\n\\+(.*)\\n(?P<qual>.*)\\n"
+}
 ```
 <b>Data source:</b><br/>
 
 ## STRT-Seq
 Citation:<br/>
-
+Genome Res. 2011 Jul;21(7):1160-7. doi: 10.1101/gr.110882.110. Epub 2011 May 4.
+Characterization of the single-cell transcriptional landscape by highly multiplex RNA-seq.
+Islam S1, Kjällquist U, Moliner A, Zajac P, Fan JB, Lönnerberg P, Linnarsson S.
 ```
 
 ```
 ### Json:
 ```
-
+dual index:
+{
+    "read1": "(?P<name>[^\\s]+).*\\n(?P<CB1>.{3})(?P<MB>.{5})(?P<G>G{3,3})(?P<seq>.*)\\n\\+(.*)\\n(.{3})(.{5})(.{3,3})(?P<qual>.*)\\n",
+    "read2": "(@.*)\\n(?P<CB2>.*)\\n\\+(.*)\\n(.*)\\n"
+}
+SRP022764
+{
+    "read1": "(?P<name>[^\\s]+).*\\n(?P<MB>.{5})(?P<seq>.*)\\n\\+(.*)\\n(.{5})(?P<qual>.*)\\n",
+    "read2": null
+}
+SRP045452
+{
+    "read1": "(?P<name>[^\\s]+).*\\n(?P<MB>.{6})(?P<G>G{3,3})(?P<seq>.*)\\n\\+(.*)\\n(.{6})(.{3,3})(?P<qual>.*)\\n",
+    "read2": null
+}
 ```
 <b>Data source:</b><br/>
 
