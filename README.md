@@ -92,7 +92,7 @@ http://www.ebi.ac.uk/arrayexpress/files/E-GEOD-54006/E-GEOD-54006.sdrf.txt
 AE deleted cell barcodes \<CB\> and \<MB\>.
 
 
-## BAT-seq
+## BAT-seq (OK)
 Citation:<br/>
 Mol Syst Biol. 2015 Jun 3;11(6):812. doi: 10.15252/msb.20156198.
 Single-cell polyadenylation site mapping reveals 3' isoform choice variability.
