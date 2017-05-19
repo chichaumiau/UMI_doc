@@ -89,7 +89,7 @@ http://www.wisdom.weizmann.ac.il/~effi/science2014/jaitin_etal_fastqs.tgz
 GSE54006
 http://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-54006/
 http://www.ebi.ac.uk/arrayexpress/files/E-GEOD-54006/E-GEOD-54006.sdrf.txt
-AE deleted cell barcodes <CB> and <MB>.
+AE deleted cell barcodes \<CB\> and \<MB\>.
 
 
 ## BAT-seq
