@@ -64,3 +64,46 @@ where XXXXXX is the cell barcode and NNNN is the RMT
 <b>Data source:</b><br/>
 http://www.wisdom.weizmann.ac.il/~effi/science2014/jaitin_etal_fastqs.tgz
 
+
+## BATseq
+Citation:<br/>
+Mol Syst Biol. 2015 Jun 3;11(6):812. doi: 10.15252/msb.20156198.
+Single-cell polyadenylation site mapping reveals 3' isoform choice variability.
+Velten L1, Anders S1, Pekowska A1, Järvelin AI1, Huber W1, Pelechano V1, Steinmetz LM2.
+```
+Fig1
+
+```
+### Json:
+```
+{
+    "read1": "(@.*)\\n(?P<MB>.{8})(.*)\\n\\+\\n(.*)\\n",
+    "read2": "(?P<name>@.*) .*\\n(?P<seq>.*)\\n\\+\\n(?P<qual>.*)\\n"
+}
+```
+<b>Data source:</b><br/>
+
+## CEL-Seq
+Citation:<br/>
+
+```
+
+```
+### Json:
+```
+
+```
+<b>Data source:</b><br/>
+
+## STRT-Seq
+Citation:<br/>
+
+```
+
+```
+### Json:
+```
+
+```
+<b>Data source:</b><br/>
+
