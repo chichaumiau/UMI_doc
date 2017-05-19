@@ -19,5 +19,5 @@ Klein AM1, Mazutis L2, Akartuna I3, Tallapragada N1, Veres A4, Li V1, Peshkin L1
 }
 ```
 <b>Data source:</b><br/>
-[https://www.ebi.ac.uk/arrayexpress/files/E-GEOD-65525/E-GEOD-65525.sdrf.txt]: https://www.ebi.ac.uk/arrayexpress/files/E-GEOD-65525/E-GEOD-65525.sdrf.txt<br/>
+https://www.ebi.ac.uk/arrayexpress/files/E-GEOD-65525/E-GEOD-65525.sdrf.txt<br/>
 
