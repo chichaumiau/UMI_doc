@@ -62,7 +62,7 @@ fq2:
 https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE63473&format=file
 
 
-## MARSeq
+## MARSSeq
 Citation:<br/>
 Massively Parallel Single-Cell RNA-Seq for Marker-Free Decomposition of Tissues into Cell Types. Diego Adhemar Jaitin*, Ephraim Kenigsberg*, Hadas Keren-Shaul*, Naama Elefant, Franziska Paul, Irina Zaretsky, Alexander Mildner, Nadav Cohen, Steffen Jung, Amos Tanay, Ido Amit. Science 2014
 ```
@@ -90,6 +90,8 @@ Single-cell polyadenylation site mapping reveals 3' isoform choice variability.
 Velten L1, Anders S1, Pekowska A1, Järvelin AI1, Huber W1, Pelechano V1, Steinmetz LM2.
 ```
 Fig1
+Table S2
+TATAGAATTCGCGGCCGCTCGCGATCACTGTNNNNNNNVTTTTTTTTTTTTTTTTTTTTVN
 
 ```
 ### Json:
@@ -100,6 +102,8 @@ Fig1
 }
 ```
 <b>Data source:</b><br/>
+GSE60768
+
 
 ## CEL-Seq
 Citation:<br/>
@@ -128,6 +132,7 @@ Genome Res. 2011 Jul;21(7):1160-7. doi: 10.1101/gr.110882.110. Epub 2011 May 4.
 Characterization of the single-cell transcriptional landscape by highly multiplex RNA-seq.
 Islam S1, Kjällquist U, Moliner A, Zajac P, Fan JB, Lönnerberg P, Linnarsson S.
 ```
+Table S1
 
 ```
 ### Json:
@@ -149,4 +154,5 @@ SRP045452
 }
 ```
 <b>Data source:</b><br/>
+GSE29087
 
