@@ -2,7 +2,7 @@
 Documentation for tag based scRNA-Seq
 
 
-## inDrop
+## inDrop (OK)
 Citation:<br/>
 Cell. 2015 May 21;161(5):1187-201. doi: 10.1016/j.cell.2015.04.044.<br/>
 Droplet barcoding for single-cell transcriptomics applied to embryonic stem cells.<br/>
@@ -59,7 +59,7 @@ fq2:
 }
 ```
 <b>Data source:</b><br/>
-https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE63473&format=file
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE63nnn/GSE63473/suppl/GSE63473_RAW.tar
 
 
 ## MARSSeq
@@ -71,6 +71,11 @@ TableS7
 CGATTGAGGCCGGTAATACGACTCACTATAGGGGCGACGTGT
 GCTCTTCCGATCTXXXXXXNNNNTTTTTTTTTTTTTTTTTTTTN,
 where XXXXXX is the cell barcode and NNNN is the RMT
+
+@SRR1106639.1 1/1
+CTGCCTCAAAGGACTGCCATGGCAGGGCGAGGACCCGAGGAGCCTTCT
++
+FFBFFFFIIIBFFFFFIIIIIIIIIIIIIIFIIFIIIIFFFFFFBFFB
 ```
 ### Json:
 ```
@@ -81,6 +86,9 @@ where XXXXXX is the cell barcode and NNNN is the RMT
 ```
 <b>Data source:</b><br/>
 http://www.wisdom.weizmann.ac.il/~effi/science2014/jaitin_etal_fastqs.tgz
+GSE54006
+http://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-54006/
+http://www.ebi.ac.uk/arrayexpress/files/E-GEOD-54006/E-GEOD-54006.sdrf.txt
 
 
 ## BATseq
