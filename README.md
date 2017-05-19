@@ -62,7 +62,7 @@ fq2:
 ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE63nnn/GSE63473/suppl/GSE63473_RAW.tar
 
 
-## MARSSeq
+## MARS-Seq
 Citation:<br/>
 Massively Parallel Single-Cell RNA-Seq for Marker-Free Decomposition of Tissues into Cell Types. Diego Adhemar Jaitin*, Ephraim Kenigsberg*, Hadas Keren-Shaul*, Naama Elefant, Franziska Paul, Irina Zaretsky, Alexander Mildner, Nadav Cohen, Steffen Jung, Amos Tanay, Ido Amit. Science 2014
 ```
@@ -91,7 +91,7 @@ http://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-54006/
 http://www.ebi.ac.uk/arrayexpress/files/E-GEOD-54006/E-GEOD-54006.sdrf.txt
 
 
-## BATseq
+## BAT-seq
 Citation:<br/>
 Mol Syst Biol. 2015 Jun 3;11(6):812. doi: 10.15252/msb.20156198.
 Single-cell polyadenylation site mapping reveals 3' isoform choice variability.
