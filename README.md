@@ -137,7 +137,7 @@ Hashimshony T1, Senderovich N1, Avital G1, Klochendler A2, de Leeuw Y1, Anavy L1
 SRP014672
 
 
-## STRT-Seq
+## STRT-Seq (OK)
 Citation:<br/>
 Genome Res. 2011 Jul;21(7):1160-7. doi: 10.1101/gr.110882.110. Epub 2011 May 4.
 Characterization of the single-cell transcriptional landscape by highly multiplex RNA-seq.
