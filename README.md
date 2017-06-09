@@ -46,9 +46,15 @@ Barcoded Bead SeqB 5’ –Bead–Linker-TTTTTTTAAGCAGTGGTATCAACGCAGAGTACJJJJJJJ
 TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT-3’
 
 fq1:
-
+@SRR1873278.1.1 NS500531:16:H2L75BGXX:1:11101:5725:1038 length=20
+TAGTTNGCGCGGGNGAGTAC
++SRR1873278.1.1 NS500531:16:H2L75BGXX:1:11101:5725:1038 length=20
+AA7AA#FFFFFFF#FFFFFF
 fq2:
-
+@SRR1873278.1.2 NS500531:16:H2L75BGXX:1:11101:5725:1038 length=60
+AAACAAACGACTCAGACGGCCTCACGAGAATCTAGACGAACTAATTAGAGAACACCAGCG
++SRR1873278.1.2 NS500531:16:H2L75BGXX:1:11101:5725:1038 length=60
+))<AA7)F77)<))))))7F.)7..<<.).<)A).F.<...F))FA.)))))).).))..
 
 ```
 ### Json:
@@ -62,7 +68,7 @@ fq2:
 ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE63nnn/GSE63473/suppl/GSE63473_RAW.tar
 
 
-## MARS-Seq (OK)
+## MARS-Seq
 Citation:<br/>
 Massively Parallel Single-Cell RNA-Seq for Marker-Free Decomposition of Tissues into Cell Types. Diego Adhemar Jaitin*, Ephraim Kenigsberg*, Hadas Keren-Shaul*, Naama Elefant, Franziska Paul, Irina Zaretsky, Alexander Mildner, Nadav Cohen, Steffen Jung, Amos Tanay, Ido Amit. Science 2014
 ```
@@ -92,7 +98,7 @@ http://www.ebi.ac.uk/arrayexpress/files/E-GEOD-54006/E-GEOD-54006.sdrf.txt
 AE deleted cell barcodes \<CB\> and \<MB\>.
 
 
-## BAT-seq (OK)
+## BAT-seq
 Citation:<br/>
 Mol Syst Biol. 2015 Jun 3;11(6):812. doi: 10.15252/msb.20156198.
 Single-cell polyadenylation site mapping reveals 3' isoform choice variability.
@@ -101,6 +107,17 @@ Velten L1, Anders S1, Pekowska A1, Järvelin AI1, Huber W1, Pelechano V1, Steinm
 Fig1
 Table S2
 TATAGAATTCGCGGCCGCTCGCGATCACTGTNNNNNNNVTTTTTTTTTTTTTTTTTTTTVN
+
+fastq1:
+@SRR1558183.43605.1 43605 length=14
+CTGCTATGTTTTTT
++SRR1558183.43605.1 43605 length=14
+FFFFFFGFGGGGGG
+fastq2:
+@SRR1558183.1.2 1 length=273
+CAAGACTGTTGTCAACACGGATGTGTTCAGGGACCCAGCTTTGAAGCGCAAGGCCAGGCGGGAGGCCCAGGTCCAGTTTGTGGAGCGATACCAGACCCGGAAGAACACATGGTTTTTCCAGAAGCTTCGCTTTTTGGTATATTTTTTATTTGGTCCTCCAAAAAAAAAAAAAAAAAAAAAAAACAACCCTTGTTCCCCCGCGCCCCCCCCCTCCTATTTTTTTTTTCTCGGTGTTCTCCTCTTTTTTCCTCCCTTTTTCTTTTTTTTCTTTTT
++SRR1558183.1.2 1 length=273
+F@DF1FGGGG1GG33G11000A0BD2EHDGEGFGFECEGHHHEGBFF/A/A//EG////EC///>AF//>/1>11BBBF10B/<?B</<?C1BC0////<>/?00000/1<01?FFF0F##########################################################################################################################################################
 
 ```
 ### Json:
@@ -124,6 +141,16 @@ Genome Biol. 2016 Apr 28;17:77. doi: 10.1186/s13059-016-0938-8.
 CEL-Seq2: sensitive highly-multiplexed single-cell RNA-Seq.
 Hashimshony T1, Senderovich N1, Avital G1, Klochendler A2, de Leeuw Y1, Anavy L1, Gennert D3,4,5, Li S6, Livak KJ6, Rozenblatt-Rosen O3,4,5, Dor Y2, Regev A3,4,5, Yanai I7.
 ```
+fastq1:
+@SRR1161549.1.1 HWI-D00148:56:C24EVACXX:5:1101:1396:2277:ACAGTG length=51
+ATGTGTCAGAGGTTTTTTTTTTTTTTTTTTTTTTCAAAAAAAAAAAAAAAA
++SRR1161549.1.1 HWI-D00148:56:C24EVACXX:5:1101:1396:2277:ACAGTG length=51
+BCCFFFFFHHHHHJIJJJJJJJJJJJFD82;<B9(3>@(8@DDDB&59BDD
+fastq2:
+@SRR1161549.1.2 HWI-D00148:56:C24EVACXX:5:1101:1396:2277:ACAGTG length=51
+TGTCAGAGGTTNNNNTTTTTTTTTTTTTTTTTTTTTNNNTTTAAAAAAAAA
++SRR1161549.1.2 HWI-D00148:56:C24EVACXX:5:1101:1396:2277:ACAGTG length=51
+<<<@@@@@@@@####43=@@@????????=<;<::7###+++(+8:<75::
 
 ```
 ### Json:
@@ -144,6 +171,11 @@ Characterization of the single-cell transcriptional landscape by highly multiple
 Islam S1, Kjällquist U, Moliner A, Zajac P, Fan JB, Lönnerberg P, Linnarsson S.
 ```
 Table S1
+fastq:
+@SRR1043197.1 Run0195_AC22NPACXX_L3_T1101_C16 length=51
+CAGCACTGTCTCTTATACACATCTGACGCATTAGACGTCGTATGCCGTCTT
++SRR1043197.1 Run0195_AC22NPACXX_L3_T1101_C16 length=51
+@@@DDDDEHHHFHIIIGIGIGHGHIIFHIDHIIIIGGHHIIIGIIGFAFHI
 
 ```
 ### Json:
@@ -167,3 +199,30 @@ SRP045452
 <b>Data source:</b><br/>
 GSE29087
 
+## SCRB-seq
+Citation:<br/>
+Sci Rep. 2016 Sep 27;6:33883. doi: 10.1038/srep33883.
+An Automated Microwell Platform for Large-Scale Single Cell RNA-Seq.
+Yuan J1, Sims PA1,2,3.
+```
+fastq1:
+@SRR1058003.1.1 HWI-ST1233:170:H0C9KADXX:1:1101:1190:1948 length=16
+NACCAGGCGCGGGGGG
++SRR1058003.1.1 HWI-ST1233:170:H0C9KADXX:1:1101:1190:1948 length=16
+#1:DDDFFGFGHGIJD
+fastq2:
+@SRR1058003.1.2 HWI-ST1233:170:H0C9KADXX:1:1101:1190:1948 length=34
+AATTAATATTCTGTTGTTGTTTTGGGGAGTATTC
++SRR1058003.1.2 HWI-ST1233:170:H0C9KADXX:1:1101:1190:1948 length=34
+?@@FFFFFHHHHHGGHBGEECHIGGGICF19CDG
+
+```
+### Json:
+```
+{
+  "read1": "(@.*)\\n(?P<CB>.{6})(?P<MB>.{10})\\n\\+(.*)\\n(.*)\\n",
+  "read2": "(?P<name>@.*) .*\\n(?P<seq>.*)\\n\\+(.*)\\n(?P<qual>.*)\\n"
+}
+```
+<b>Data source:</b><br/>
+GSE701151
